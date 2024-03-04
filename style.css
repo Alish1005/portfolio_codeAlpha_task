@@ -1,0 +1,180 @@
+
+body{
+    background-color: rgb(0, 10, 100) !important;
+    background-image: url(./649639.jpg);
+    background-size: cover;
+}
+.avatar{
+    border:solid 10px #0063d4;
+    border-radius: 50%;
+    width: 70vh;
+    height: 70vh;
+    margin: 100px 0;
+    animation: avatar 2s linear infinite alternate;
+}
+.home{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.avatar-container{
+    
+}
+.navtitle{
+    color: #ffffff;
+    margin: 0 10px;
+}
+.nav{
+    width: 75%;
+    margin-left: 20px;
+    margin-right: 30px;
+    padding-top: 20px;
+}
+a{
+    text-decoration: none !important;
+    color:#fff !important;
+    font-weight: 700;
+}
+.btn-nav{
+    color:#fff !important;
+}
+.btn-nav:hover{
+    animation: btn-nav 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    cursor: pointer;
+}
+.btn-box{
+    display: inline-block;
+    padding: 12px 28px;
+    background: #00d9ff;
+    border: 0;
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 1px ;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 1s;
+}
+.btn-box:hover{
+    color:  rgb(0, 10, 100) !important;
+    background: #00d9ff;
+    box-shadow : 0 0 30px 5px #0077ff;
+    transition: all 1s;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgb(0, 10, 100, 0); /* Transparent background color */
+    backdrop-filter: blur(4px); /* Adjust the blur value as needed */
+}
+@keyframes avatar {
+    0% {
+        box-shadow: -5px -5px 30px 5px rgb(47, 0, 255), 5px 5px 30px 5px rgb(0, 255, 136);
+    }
+    100% {
+        box-shadow: -5px -5px 30px 5px rgb(0, 255, 136), 5px 5px 30px 5px rgb(47, 0, 255);
+    }
+}
+@keyframes btn-nav {
+    0% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+            -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+            text-shadow: none;
+        }
+    100% {
+            -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+            -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+            text-shadow: 0 1px 0 #0063d4, 0 2px 0 #0063d4, 0 3px 0 #0063d4, 0 4px 0 #0063d4, 0 5px 0 #0063d4, 0 6px 0 #0063d4, 0 7px 0 #0063d4, 0 8px 0 #0063d4, 0 9px 0 #0063d4, 0 50px 30px rgba(0, 0, 0, 0.3);
+        }
+}
+section{
+    width: 100%;
+}
+.home-content{
+    width: 90vh !important;
+    margin: 200px 50px 0 150px !important;
+    color: white;
+}
+
+.home-sci{
+    width: 100vh;
+}
+.home-sci a:hover{
+    color:  rgb(0, 26, 255) !important;
+    background: #00d9ff;
+    box-shadow : 0 0 30px 5px #0077ff;
+    transition: all .3s;
+}
+.home-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border:solid 2px #00d9ff;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #00d9ff !important;
+    margin: 30px 25px 30px 0;
+    transition: all .3s;
+}
+.home-content h1{
+    font-size: 32px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+
+.home-content h3{
+    font-size:20px ;
+    
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  .typing { color: #fff;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  span {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+  }
+  
+  @keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
+.home-content p{
+
+}
+.typewrite .wrap{
+    text-shadow: 0px 0px 40px rgb(0, 204, 255);
+    color: #ffffff; /* Text color */
+    -webkit-text-stroke: .5px rgb(0, 0, 0,0); /* Adjust border width and color */
+}
