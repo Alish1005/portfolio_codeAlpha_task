@@ -9,43 +9,386 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <title>Ali Sherry -portfolio</title>
         <script src="./scripts.js"></script>
-    <!-- https://boxicons.com/usage#animation -->
-</head>
-<body>
-    <header class="">
-        <div class="d-flex">
-            <h1 href="logo" class="navtitle me-5 h1 text-light">Portfolio</h1>
-            <nav class="d-flex justify-content-between nav">
-                <a class="btn-nav">Home</a>
-                <a class="btn-nav">About</a>
-                <a class="btn-nav">Skill</a>
-                <a class="btn-nav">Portfolio</a>
-                <a class="btn-nav">Contact</a>
-            </nav>
-        </div>
-    </header>
-    <section class="home row">
-        <div class="home-content col-sm-11 col-md-5">
-            <h1>
-                <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, Im Ali Sherry. <br>I am Full-Stack Developer.", "I am Full-Stack Developer." ]'>
-                  <span class="wrap"></span>
-                </a>
-              </h1>
+        <!-- https://boxicons.com/usage#animation -->
+    </head>
+    <body>
+        <header class="">
+                <div class="d-flex">
+                    <h1 href="logo" class="navtitle me-5 h1 text-light">Portfolio</h1>
+                    <nav class="d-flex justify-content-between nav">
+                        <a href="#home" class="btn-nav">Home</a>
+                        <a href="#about" class="btn-nav">About</a>
+                        <a href="#skills" class="btn-nav">Skill</a>
+                    <a href="#projects" class="btn-nav">Projects</a>
+                    <a href="#contact" class="btn-nav">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <section id="home" class="home row">
+            <div class="home-content col-sm-11 col-md-5 mx-xs-2 mx-md-5">
+                <h1>
+                    <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, Its Me Ali Sherry.", "I am Full-Stack Developer." ]'>
+                        <span class="wrap"></span>
+                    </a>
+                </h1>
             <p>Full-Stack Developer with extensive experience for over 1 year.
                 <br>expertise is to create and  maintain websites with high  performance and security.
             </p>
             <div class="home-sci">
-                <a href=""><i class='bx bxl-linkedin'></i></a>
-                <a href=""><i class='bx bxl-instagram'></i></a>
-                <a href=""><i class='bx bxl-whatsapp'></i></a>
-                <a href=""><i class='bx bxl-youtube'></i></a>
+                <a href="https://www.linkedin.com/in/ali-sherry-721bab257/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/_alisherry/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="mailto:alisherry.dev@gmail.com" target="_blank"><i class='bx bx-envelope'></i></a>
+                <a href="" target="_blank"><i class='bx bxl-whatsapp'></i></a>
             </div>
-            <button class="btn-box">More about me</button>
+            <a class="btn-box" href="https://www.linkedin.com/in/ali-sherry-721bab257/"  target="_blank">More about me</a>
         </div>
         <div class="avatar-container col-sm-11 col-md-5 my-sm-2">
             <img class="avatar" src="./IMG_20230205.png" />
         </div>
     </section>
+    <section  class="about row">
+        <div class="col-xs-11 col-md-5 col-lg-5">
+            <img class="about-avatar" src="./Artboard 1AS 4.png" />
+        </div>
+        <div class="about-content text-light  col-xs-11 col-md-5 col-lg-5">
+            <h2 id="about" class="h1">About <span class="Me">Me <img class="crown" src="./crown.png"/> </span></h2>
+            <div class="about-text">
+                <p class="">
+                    Greetings! I'm Ali Sherry, a dynamic full-stack developer driven by a passion for crafting exceptional digital experiences. With a strong foundation in Computer Science, I've cultivated expertise in a range of technologies, including ASP.NET MVC, Web API Core, and React.js.
+                </p>
+                <p class="">
+                    My journey in web development is fueled by a curiosity to explore new technologies and methodologies. I take pride in my ability to create robust back-end solutions and captivating front-end interfaces, always striving to strike the perfect balance between functionality and design.
+                </p>
+                <p class="">
+                    Beyond coding, I enjoy collaborating with teams to bring ideas to life and solve complex challenges. Let's collaborate on innovative projects and push the boundaries of what's possible in the world of web development.
+                </p>
+            </div>
+        </div>
+    </section>
+    <h1 id="skills" class="sub-title">My Skills</h1>
+    <section class="container1 skills text-light">
+        <div class="heading1">Front-End</div>
+        <div class="Technical-bars">
+            <div class="bar">
+                <div class="info">
+                    <i style="color: #c95d2e" class='bx bxl-html5'></i> <span>HTML</span>
+                </div>
+                <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-primary" style="width: 80%">80%</div>
+                  </div>
+        </div>
+        <div class="bar">
+            <div class="info">
+                <i style="color: #147bbc" class='bx bxl-css3' ></i> <span>CSS</span>
+            </div>
+            <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-primary" style="width: 75%">75%</div>
+              </div>
+        </div>
+        <div class="bar">
+            <div class="info">
+                <i style="color: #c7da00" class='bx bxl-javascript'> </i> <span>Javascript</span>
+            </div>
+            <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-primary" style="width: 80%">80%</div>
+              </div>
+        </div>
+        <div class="bar">
+            <div class="info">
+                <i style="color: #0077ff" class='bx bxl-react' > </i> <span>React js</span>
+            </div>
+            <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-primary" style="width: 87%">87%</div>
+              </div>
+        </div>
+        <div class="bar">
+            <div class="info">
+                <i style="color: #9900ff" class='bx bxl-bootstrap' > </i><span>Bootstrap</span>
+            </div>
+            <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-primary" style="width: 90%">90%</div>
+              </div>
+        </div>
+    </div>
+    <div class="heading1">Back-End</div>
+    <div class="Technical-bars">
+        <div class="bar">
+            <div class="info">
+                 <span>Asp.net MVC</span>
+            </div>
+            <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-primary" style="width: 80%">80%</div>
+              </div>
+    </div>
+    <div class="bar">
+        <div class="info">
+            <span>Asp.net Web API</span>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-primary" style="width: 90%">90%</div>
+          </div>
+    </div>
+    <div class="bar">
+        <div class="info">
+              <span>SQL</span>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-primary" style="width: 75%">75%</div>
+          </div>
+    </div>
+    <div class="bar">
+        <div class="info">
+        <span>MySQL</span>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-primary" style="width: 80%">80%</div>
+          </div>
+    </div>
+    <div class="bar">
+        <div class="info">
+        <i style="color:#008f0c" class='bx bxl-nodejs' ></i> <span>Node js</span>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-primary" style="width: auto">Learning it ...</div>
+          </div>
+    </div>
+</div>
+<div class="heading1">Programming Languages</div>
+<div class="Technical-bars">
+    <div class="bar">
+        <div class="info">
+            <i style="color: #ff8800" class='bx bxl-java'></i> <span>Java</span>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-primary" style="width: 80%">80%</div>
+          </div>
+</div>
+<div class="bar">
+    <div class="info">
+        <i  style="color: #5e00ca"  class='bx bxl-c-plus-plus'></i> <span>C#</span>
+    </div>
+    <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-primary" style="width: 85%">85%</div>
+      </div>
+</div>
+<div class="bar">
+    <div class="info">
+        <i style="color: #0095da" class='bx bxl-python'> </i> <span>Python</span>
+    </div>
+    <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-primary" style="width: 60%">60%</div>
+      </div>
+</div>
+
+</div>
+    </section>
+    <h1 id="projects" class="sub-title">My Projects</h1>
+    <section class="row">
+        <!-- Button trigger modal -->
+        <div class="project-div col-lg-3">
+            <button type="button" class="project btn btn-transparent" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img src="./1.0.Home.jpg" class="btn-project " alt="">
+                <span class="project-name">University E-commerce Cafeteria</span>
+            </button>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen-sm-down modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">University E-commerce Cafeteria</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <section>
+                            <h4>Description:</h4>
+                            <p>Our University E-commerce Cafeteria Management System is a comprehensive platform designed to streamline the operations of university cafeterias, catering to the needs of students, staff, and administrators alike. This full-stack project integrates various functionalities to enhance efficiency, convenience, and user experience within the cafeteria environment.</p>
+                        </section>
+                        <section>
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li><strong>User Roles:</strong>
+                                    <ul>
+                                        <li>Manager: Responsible for overseeing all aspects of cafeteria operations...</li>
+                                        <li>Staff: Handles day-to-day tasks within the cafeteria...</li>
+                                        <li>User (Student/Staff): Place orders, track order status, browse menu items...</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Order Management:</strong> Users can place orders through the e-commerce platform...</li>
+                                <li><strong>Menu Management:</strong> Managers have the ability to create, edit, and remove menu items...</li>
+                                <li><strong>Account Management:</strong> Users can create and manage their accounts...</li>
+                                <li><strong>Cafeteria Settings:</strong> Managers can configure various cafeteria settings...</li>
+                                <li><strong>Feedback Mechanism:</strong> Users can provide feedback on their dining experience...</li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h4>Benefits:</h4>
+                            <ul>
+                                <li>Time-saving: By allowing users to place orders remotely and receive notifications...</li>
+                                <li>Efficiency: Streamlined order processing, inventory management, and reporting functionalities...</li>
+                                <li>Enhanced User Experience: Personalized menus, promotions, and feedback mechanisms...</li>
+                            </ul>
+                        </section>
+                        <img src="./2.Menu.jpg" alt="">
+                        <img src="./3.MenuItemWindow.jpg" alt="">
+                        <img src="./6.Cart.jpg" alt="">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- Button trigger modal -->
+        <div class="project-div col-lg-3">
+            <button type="button" class="project btn btn-transparent" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                <img src="./1.png" class="btn-project " alt="">
+                <span class="project-name">E-commerce</span>
+            </button>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen-sm-down modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">E-commerce</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <section>
+                            <h4>Description:</h4>
+                            <p>Our E-commerce Clothes Shop Management System is a versatile platform tailored to meet the needs of both customers and administrators. This comprehensive solution empowers shop managers to efficiently oversee various aspects of their online clothing store while providing customers with an intuitive and seamless shopping experience.</p>
+                        </section>
+                        <section>
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li><strong>Clothes Brands Management:</strong> Managers can add, edit, and remove clothing brands...</li>
+                                <li><strong>Orders Management:</strong> Efficient order processing, including order placement, tracking, and fulfillment...</li>
+                                <li><strong>Account Management:</strong> Customers can create and manage their accounts, view order history, and update personal information...</li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h4>Benefits:</h4>
+                            <ul>
+                                <li><strong>Efficiency:</strong> Streamlined management of clothing brands, orders, and customer accounts...</li>
+                                <li><strong>Customer Satisfaction:</strong> Seamless shopping experience with easy navigation, quick order placement, and order tracking...</li>
+                                <li><strong>Inventory Control:</strong> Real-time monitoring of stock levels and automated alerts for low inventory...</li>
+                            </ul>
+                        </section>
+                        <img src="./1.png" alt="">
+                        <img src="./2.png" alt="">
+                        <img src="./3.png" alt="">
+                        <img src="./4.png" alt="">
+                        <img src="./5.png" alt="">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="project-div col-lg-3">
+        <button type="button" class="project btn btn-transparent" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+            <img src="./2024-03-05 03_46_05-Window.png" class="btn-project " alt="">
+            <span class="project-name">Al-Jazeera News Visualization</span>
+        </button>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen-sm-down modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Al-Jazeera News Visualization</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <section>
+                        <h4>Description:</h4>
+                        <p>Our Al Jazeera News Analysis and Visualization tool provides users with a comprehensive overview of the top news types and topics covered by Al Jazeera. By analyzing the latest news articles, this platform generates interactive diagrams that allow users to gain insights into the distribution and trends of news content.</p>
+                    </section>
+                    <section>
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li><strong>News Type Analysis:</strong> Visualize the distribution of news types (e.g., politics, sports, entertainment) to identify the most prominent categories.</li>
+                            <li><strong>Topic Analysis:</strong> Explore the prevalence of different topics (e.g., international affairs, economy, health) across the news articles.</li>
+                            <li><strong>Daily News Count:</strong> View a line diagram illustrating the number of news articles published daily, allowing users to track fluctuations in news coverage over time.</li>
+                            <li><strong>Topic-specific News Count:</strong> Access line diagrams displaying the number of news articles published for each topic, enabling users to understand the relative importance of various news topics over time.</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h4>Benefits:</h4>
+                        <ul>
+                            <li><strong>Insightful Visualization:</strong> Interactive diagrams provide a visually engaging way to analyze and understand Al Jazeera's news coverage patterns.</li>
+                            <li><strong>Data-driven Decision Making:</strong> Users can make informed decisions based on trends and patterns identified in news types, topics, and daily news counts.</li>
+                            <li><strong>Efficient Information Consumption:</strong> Quickly identify top news types and topics of interest, facilitating efficient browsing and consumption of news content.</li>
+                        </ul>
+                    </section>
+                    <img src="./2024-03-05 03_46_05-Window.png" alt="">
+                    <img src="./2024-03-05 03_46_51-Window.png" alt="">
+                    <img src="./2024-03-05 03_47_27-Window.png" alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="project-div col-lg-3">
+    <button type="button" class="project btn btn-transparent" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+        <img src="./m1.png" class="btn-project " alt="">
+        <span class="project-name">Doctor Appointment Mobile App</span>
+    </button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen-sm-down modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Doctor Appointment Mobile App</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <section>
+                    <h4>Description:</h4>
+                    <p>The Doctor Appointment Organizer is a mobile Android application designed to streamline the appointment management process for doctors. This intuitive tool empowers doctors to efficiently organize appointments, manage clinic settings, and access appointment histories, enhancing overall patient care and administrative efficiency.</p>
+                </section>
+                <section>
+                    <h4>Key Features:</h4>
+                    <ul>
+                        <li><strong>Appointment Management:</strong> Doctors can easily add, edit, or cancel appointments for patients, ensuring optimal scheduling and time management.</li>
+                        <li><strong>Patient Management:</strong> Seamlessly add new patients to the system and maintain comprehensive appointment histories for each patient.</li>
+                        <li><strong>Clinic Settings:</strong> Customize clinic settings such as working hours, appointment duration, and appointment prices to suit individual preferences and requirements.</li>
+                        <li><strong>Appointment Pricing:</strong> Set and adjust appointment prices for different services offered, providing transparency and flexibility in billing.</li>
+                        <li><strong>Appointment History:</strong> Access detailed appointment histories for each patient, including past appointments, diagnoses, treatments, and prescriptions.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h4>Benefits:</h4>
+                    <ul>
+                        <li><strong>Efficient Appointment Management:</strong> Streamline the scheduling process and minimize administrative overhead with intuitive appointment management features.</li>
+                        <li><strong>Improved Patient Care:</strong> Maintain comprehensive patient records and histories to facilitate personalized treatment plans and continuity of care.</li>
+                        <li><strong>Enhanced Clinic Operations:</strong> Customize clinic settings and pricing structures to optimize workflow efficiency and revenue generation.</li>
+                    </ul>
+                </section>
+                <img src="./photo_2024-03-05_04-30-55.jpg" alt="">
+                <img src="./photo_2024-03-05_04-31-03.jpg" alt="">
+                <img src="./photo_2024-03-05_04-31-07.jpg" alt="">
+                <img src="./photo_2024-03-05_04-31-10.jpg" alt="">
+                <img src="./photo_2024-03-05_04-31-13.jpg" alt="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+<section>
+    <h1 id="contact" class="sub-title">Contact me</h1>
+    <p class="contact-me">If you have any questions, feedback, or inquiries, please feel free to contact me. I'm always eager to hear from you and will do my best to respond promptly. You can reach me via email at <a href="mailto:alisherry.dev@gmail.com">alisherry.dev@gmail.com</a> or through the contact form below.</p>
+</section>
+    <div class="dbg">
+    </div> 
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
